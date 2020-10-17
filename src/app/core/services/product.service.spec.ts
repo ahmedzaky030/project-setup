@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GraphQlService } from './graph-ql.service';
+import { ProductService } from './product.service';
 
-describe('GraphQlService', () => {
-  let service: GraphQlService;
+describe('ProductService', () => {
+  let service: ProductService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(GraphQlService);
+    service = TestBed.inject(ProductService);
   });
 
   it('should be created', () => {

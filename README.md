@@ -1,3 +1,17 @@
+# Runing Serve Docker
+docker run -e ACTIVE_PROFILE=h2 --name ecommerce-ns -p8090:8090 mwahbams/ecommerce-ns:0.1
+
+## Server Info
+# docker run -e ACTIVE_PROFILE=h2 --name ecommerce-ns  -p8090:8090 mwahbams/ecommerce-ns:0.1
+#  http://localhost:8090/voyager  -- for models
+#  http://localhost:8090/graphiql -- for console
+#  http://localhost:8090/graphql -- for api
+for DB
+http://localhost:8090/h2-console -- Db console
+#    url: jdbc:h2:~/h2-ns
+#    username: admin
+#    password: admin
+
 # ECommerce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
